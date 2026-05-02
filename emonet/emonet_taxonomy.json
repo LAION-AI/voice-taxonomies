@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "name": "EmoNet Taxonomy",
+    "version": "1.0",
+    "description": "A taxonomy of 41 emotion categories for vocal expression classification, derived from the EmoNet framework",
+    "total_categories": 40,
+    "source": "EmoNet Phase Paper"
+  },
+  "categories": {
+    "Amusement": {
+      "id": 1,
+      "valence": "positive",
+      "arousal_tendency": "medium-high",
+      "keywords": [
+        "lighthearted fun",
+        "amusement",
+        "mirth",
+        "joviality",
+        "laughter",
+        "playfulness",
+        "silliness",
+        "jesting"
+      ]
+    },
+    "Elation": {
+      "id": 2,
+      "valence": "positive",
+      "arousal_tendency": "high",
+      "keywords": [
+        "happiness",
+        "excitement",
+        "joy",
+        "exhilaration",
+        "delight",
+        "jubilation",
+        "bliss",
+        "cheerfulness"
+      ]
+    },
+    "Pleasure/Ecstasy": {
+      "id": 3,
+      "valence": "positive",
+      "arousal_tendency": "high",
+      "keywords": [
+        "ecstasy",
+        "pleasure",
+        "bliss",
+        "rapture",
+        "beatitude"
+      ]
+    },
+    "Contentment": {
+      "id": 4,
+      "valence": "positive",
+      "arousal_tendency": "low",
+      "keywords": [
+        "contentment",
+        "relaxation",
+        "peacefulness",
+        "calmness",
+        "satisfaction",
+        "ease",
+        "serenity",
+        "fulfillment",
+        "gladness",
+        "lightness",
+        "tranquility"
+      ]
+    },
+    "Thankfulness/Gratitude": {
+      "id": 5,
+      "valence": "positive",
+      "arousal_tendency": "medium-low",
+      "keywords": [
+        "thankfulness",
+        "gratitude",
+        "appreciation",
+        "gratefulness"
+      ]
+    },
+    "Affection": {
+      "id": 6,
+      "valence": "positive",
+      "arousal_tendency": "medium",
+      "keywords": [
+        "sympathy",
+        "compassion",
+        "warmth",
+        "trust",
+        "caring",
+        "clemency",
+        "forgiveness",
+        "devotion",
+        "tenderness",
+        "reverence"
+      ]
+    },
+    "Infatuation": {
+      "id": 7,
+      "valence": "positive",
+      "arousal_tendency": "medium-high",
+      "keywords": [
+        "infatuation",
+        "having a crush",
+        "romantic desire",
+        "fondness",
+        "butterflies in the stomach",
+        "adoration"
+      ]
+    },
+    "Hope/Optimism": {
+      "id": 8,
+      "valence": "positive",
+      "arousal_tendency": "medium-high",
+      "keywords": [
+        "hope",
+        "enthusiasm",
+        "optimism",
+        "anticipation",
+        "courage",
+        "encouragement",
+        "zeal",
+        "fervor",
+        "inspiration",
+        "determination"
+      ]
+    },
+    "Triumph": {
+      "id": 9,
+      "valence": "positive",
+      "arousal_tendency": "high",
+      "keywords": [
+        "triumph",
+        "superiority"
+      ]
+    },
+    "Pride": {
+      "id": 10,
+      "valence": "positive",
+      "arousal_tendency": "medium",
+      "keywords": [
+        "pride",
+        "dignity",
+        "self-confidently",
+        "honor",
+        "self-consciousness"
+      ]
+    },
+    "Interest": {
+      "id": 11,
+      "valence": "neutral",
+      "arousal_tendency": "medium",
+      "keywords": [
+        "interest",
+        "fascination",
+        "curiosity",
+        "intrigue"
+      ]
+    },
+    "Awe": {
+      "id": 12,
+      "valence": "positive",
+      "arousal_tendency": "medium-high",
+      "keywords": [
+        "awe",
+        "awestruck",
+        "wonder"
+      ]
+    },
+    "Astonishment/Surprise": {
+      "id": 13,
+      "valence": "neutral",
+      "arousal_tendency": "high",
+      "keywords": [
+        "astonishment",
+        "surprise",
+        "amazement",
+        "shock",
+        "startlement"
+      ]
+    },
+    "Concentration": {
+      "id": 14,
+      "valence": "neutral",
+      "arousal_tendency": "medium",
+      "keywords": [
+        "concentration",
+        "deep focus",
+        "engrossment",
+        "absorption",
+        "attention"
+      ]
+    },
+    "Contemplation": {
+      "id": 15,
+      "valence": "neutral",
+      "arousal_tendency": "medium-low",
+      "keywords": [
+        "contemplation",
+        "thoughtfulness",
+        "pondering",
+        "reflection",
+        "meditation",
+        "brooding",
+        "pensiveness"
+      ]
+    },
+    "Relief": {
+      "id": 16,
+      "valence": "positive",
+      "arousal_tendency": "medium-low",
+      "keywords": [
+        "relief",
+        "respite",
+        "alleviation",
+        "solace",
+        "comfort",
+        "liberation"
+      ]
+    },
+    "Longing": {
+      "id": 17,
+      "valence": "mixed",
+      "arousal_tendency": "medium-low",
+      "keywords": [
+        "yearning",
+        "longing",
+        "pining",
+        "wistfulness",
+        "nostalgia",
+        "craving",
+        "desire",
+        "envy",
+        "homesickness",
+        "saudade"
+      ]
+    },
+    "Teasing": {
+      "id": 18,
+      "valence": "mixed",
+      "arousal_tendency": "medium-high",
+      "keywords": [
+        "teasing",
+        "bantering",
+        "mocking playfully",
+        "ribbing",
+        "provoking lightly"
+      ]
+    },
+    "Impatience and Irritability": {
+      "id": 19,
+      "valence": "negative",
+      "arousal_tendency": "medium-high",
+      "keywords": [
+        "impatience",
+        "irritability",
+        "irritation",
+        "restlessness",
+        "short-temperedness",
+        "exasperation"
+      ]
+    },
+    "Sexual Lust": {
+      "id": 20,
+      "valence": "mixed",
+      "arousal_tendency": "high",
+      "keywords": [
+        "sexual lust",
+        "carnal desire",
+        "lust",
+        "feeling horny",
+        "feeling turned on"
+      ]
+    },
+    "Doubt": {
+      "id": 21,
+      "valence": "negative",
+      "arousal_tendency": "medium-low",
+      "keywords": [
+        "doubt",
+        "distrust",
+        "suspicion",
+        "skepticism",
+        "uncertainty",
+        "pessimism"
+      ]
+    },
+    "Fear": {
+      "id": 22,
+      "valence": "negative",
+      "arousal_tendency": "high",
+      "keywords": [
+        "fear",
+        "terror",
+        "dread",
+        "apprehension",
+        "alarm",
+        "horror",
+        "panic",
+        "nervousness"
+      ]
+    },
+    "Distress": {
+      "id": 23,
+      "valence": "negative",
+      "arousal_tendency": "medium-high",
+      "keywords": [
+        "worry",
+        "anxiety",
+        "unease",
+        "anguish",
+        "trepidation",
+        "concern",
+        "upset",
+        "pessimism",
+        "foreboding"
+      ]
+    },
+    "Confusion": {
+      "id": 24,
+      "valence": "negative",
+      "arousal_tendency": "medium",
+      "keywords": [
+        "confusion",
+        "bewilderment",
+        "flabbergasted",
+        "disorientation",
+        "perplexity"
+      ]
+    },
+    "Embarrassment": {
+      "id": 25,
+      "valence": "negative",
+      "arousal_tendency": "medium",
+      "keywords": [
+        "embarrassment",
+        "shyness",
+        "mortification",
+        "discomfiture",
+        "awkwardness",
+        "self-consciousness"
+      ]
+    },
+    "Shame": {
+      "id": 26,
+      "valence": "negative",
+      "arousal_tendency": "medium-low",
+      "keywords": [
+        "shame",
+        "guilt",
+        "remorse",
+        "humiliation",
+        "contrition"
+      ]
+    },
+    "Disappointment": {
+      "id": 27,
+      "valence": "negative",
+      "arousal_tendency": "medium-low",
+      "keywords": [
+        "disappointment",
+        "regret",
+        "dismay",
+        "letdown",
+        "chagrin"
+      ]
+    },
+    "Sadness": {
+      "id": 28,
+      "valence": "negative",
+      "arousal_tendency": "low",
+      "keywords": [
+        "sadness",
+        "sorrow",
+        "grief",
+        "melancholy",
+        "dejection",
+        "despair",
+        "self-pity",
+        "sullenness",
+        "heartache",
+        "mournfulness",
+        "misery"
+      ]
+    },
+    "Bitterness": {
+      "id": 29,
+      "valence": "negative",
+      "arousal_tendency": "medium",
+      "keywords": [
+        "resentment",
+        "acrimony",
+        "bitterness",
+        "cynicism",
+        "rancor"
+      ]
+    },
+    "Contempt": {
+      "id": 30,
+      "valence": "negative",
+      "arousal_tendency": "medium",
+      "keywords": [
+        "contempt",
+        "disapproval",
+        "scorn",
+        "disdain",
+        "loathing",
+        "detestation"
+      ]
+    },
+    "Disgust": {
+      "id": 31,
+      "valence": "negative",
+      "arousal_tendency": "medium-high",
+      "keywords": [
+        "disgust",
+        "revulsion",
+        "repulsion",
+        "abhorrence",
+        "loathing"
+      ]
+    },
+    "Anger": {
+      "id": 32,
+      "valence": "negative",
+      "arousal_tendency": "high",
+      "keywords": [
+        "anger",
+        "rage",
+        "fury",
+        "hate",
+        "irascibility",
+        "enragement",
+        "vexation",
+        "wrath",
+        "peevishness",
+        "annoyance"
+      ]
+    },
+    "Malevolence/Malice": {
+      "id": 33,
+      "valence": "negative",
+      "arousal_tendency": "medium-high",
+      "keywords": [
+        "spite",
+        "sadism",
+        "malevolence",
+        "malice",
+        "desire to harm",
+        "schadenfreude"
+      ]
+    },
+    "Sourness": {
+      "id": 34,
+      "valence": "negative",
+      "arousal_tendency": "medium",
+      "keywords": [
+        "sourness",
+        "tartness",
+        "acidity",
+        "acerbity",
+        "sharpness"
+      ]
+    },
+    "Pain": {
+      "id": 35,
+      "valence": "negative",
+      "arousal_tendency": "high",
+      "keywords": [
+        "physical pain",
+        "suffering",
+        "torment",
+        "ache",
+        "agony"
+      ]
+    },
+    "Helplessness": {
+      "id": 36,
+      "valence": "negative",
+      "arousal_tendency": "low",
+      "keywords": [
+        "helplessness",
+        "powerlessness",
+        "desperation",
+        "submission"
+      ]
+    },
+    "Fatigue/Exhaustion": {
+      "id": 37,
+      "valence": "negative",
+      "arousal_tendency": "low",
+      "keywords": [
+        "fatigue",
+        "exhaustion",
+        "weariness",
+        "lethargy",
+        "burnout"
+      ]
+    },
+    "Emotional Numbness": {
+      "id": 38,
+      "valence": "neutral",
+      "arousal_tendency": "low",
+      "keywords": [
+        "numbness",
+        "detachment",
+        "insensitivity",
+        "emotional blunting",
+        "apathy",
+        "existential void",
+        "boredom",
+        "stoicism",
+        "indifference"
+      ]
+    },
+    "Intoxication/Altered States": {
+      "id": 39,
+      "valence": "neutral",
+      "arousal_tendency": "medium",
+      "keywords": [
+        "being drunk",
+        "stupor",
+        "intoxication",
+        "disorientation",
+        "altered perception"
+      ]
+    },
+    "Jealousy & Envy": {
+      "id": 40,
+      "valence": "negative",
+      "arousal_tendency": "medium-high",
+      "keywords": [
+        "jealousy",
+        "envy",
+        "covetousness"
+      ]
+    }
+  }
+}

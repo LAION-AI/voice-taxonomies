@@ -1,0 +1,888 @@
+{
+  "TEMP": {
+    "name": "Tempo",
+    "category": "Rhythm & Timing",
+    "temporal_marker": "TEMPORAL PATTERN",
+    "measures": "Speed of word/syllable production (linguistic density per unit of time)",
+    "values": {
+      "0": "Glacially slow, syllables stretched to breaking point",
+      "1": "Unusually deliberate, excessive phoneme duration",
+      "2": "Relaxed, unhurried pace (below conversational average)",
+      "3": "Standard conversational tempo, balanced and natural",
+      "4": "Brisk, elevated momentum with forward energy",
+      "5": "Compressed, fast-flowing acoustic stream",
+      "6": "Hyper-accelerated, blistering speed (auctioneer/panic)"
+    }
+  },
+  "CHNK": {
+    "name": "Chunking",
+    "category": "Rhythm & Timing",
+    "temporal_marker": "TEMPORAL PATTERN",
+    "measures": "Breath units and pause frequency between groups",
+    "values": {
+      "0": "Severely fragmented, single syllables separated by silence",
+      "1": "Very short choppy bursts (2-3 words), stop-and-go rhythm",
+      "2": "Shorter than natural phrasing, cautious groupings",
+      "3": "Natural sentence-sized clauses, organic breath cycles",
+      "4": "Extended phrasing linking multiple sentences",
+      "5": "Long dense streams with brief inhalations",
+      "6": "Massive continuous wall with no pauses"
+    }
+  },
+  "SMTH": {
+    "name": "Smoothness",
+    "category": "Rhythm & Timing",
+    "temporal_marker": "TEMPORAL PATTERN",
+    "measures": "Timing regularity and fluidity of transitions",
+    "values": {
+      "0": "Completely chaotic, spasmodic timing with glitches",
+      "1": "Sharp staccato, percussion machine-gun effect",
+      "2": "Uneven, bumpy rhythmic grid with hesitations",
+      "3": "Standard flexible rhythm with minor imperfections",
+      "4": "Consistent, practiced, predictable pulse",
+      "5": "Silk-like legato flow, seamless transitions",
+      "6": "Metronomic perfection, inhuman regularity"
+    }
+  },
+  "CLRT": {
+    "name": "Articulation Clarity",
+    "category": "Rhythm & Timing",
+    "temporal_marker": null,
+    "measures": "Precision of consonant and vowel production",
+    "values": {
+      "0": "Indecipherable blurry hum, no phoneme boundaries",
+      "1": "Severely swallowed consonants, fuzzy mumble",
+      "2": "Soft, overly relaxed articulation",
+      "3": "Neutral, standard clarity for everyday communication",
+      "4": "Crisp, distinct clarity with precise consonants",
+      "5": "Incredibly precise, high physical energy",
+      "6": "Hyper-articulated, exaggerated caricature"
+    }
+  },
+  "RANG": {
+    "name": "Pitch Range",
+    "category": "Rhythm & Timing",
+    "temporal_marker": null,
+    "measures": "Vertical movement of fundamental frequency (melody)",
+    "values": {
+      "0": "Perfectly flat horizontal line (no variance)",
+      "1": "Microscopic suppressed movements, monotonous baseline",
+      "2": "Very narrow, highly controlled window",
+      "3": "Moderate standard intonation of typical conversation",
+      "4": "Wide, expressive range with personality",
+      "5": "Highly melodic, sweeping theatrical contours",
+      "6": "Hyperbolically wild swings, operatic delivery"
+    }
+  },
+  "EMPH": {
+    "name": "Emphasis",
+    "category": "Rhythm & Timing",
+    "temporal_marker": "TEMPORAL PATTERN",
+    "measures": "Dynamic stress patterns on words/syllables",
+    "values": {
+      "0": "Every word identical weight, completely flat",
+      "1": "Faintest shifts, nearly undetectable stress",
+      "2": "Light subtle marking of important words",
+      "3": "Clear natural emphasis, well-placed stress",
+      "4": "Heavy effective marking with strong hierarchy",
+      "5": "Aggressive, intense punctuation of key concepts",
+      "6": "Violent explosive intensity, extreme disparities"
+    }
+  },
+  "DFLU": {
+    "name": "Disfluency",
+    "category": "Rhythm & Timing",
+    "temporal_marker": "TEMPORAL PATTERN",
+    "measures": "Presence of fillers, hesitations, false starts",
+    "values": {
+      "0": "Pristine flawless stream, zero interruption",
+      "1": "Highly polished, single negligible hesitation",
+      "2": "Highly fluent with occasional organic filler",
+      "3": "Standard natural amount of 'um'/'uh' and corrections",
+      "4": "Noticeably hesitant, fillers in every phrase",
+      "5": "Overwhelmingly messy, frequent restarts/stammers",
+      "6": "Entirely shattered, chaotic stammering"
+    }
+  },
+  "STRU": {
+    "name": "Structure",
+    "category": "Rhythm & Timing",
+    "temporal_marker": "TEMPORAL PATTERN",
+    "measures": "Macro-level organization of ideas",
+    "values": {
+      "0": "No logical connection, scattered word salad",
+      "1": "Incredibly jumpy, constantly abandoning topics",
+      "2": "Very loose rambling with buried main idea",
+      "3": "Basic coherent flow, naturally progressing chain",
+      "4": "Distinctly linear, well-organized path",
+      "5": "Exceptionally organized with clear transitions",
+      "6": "Perfect architectural clarity, masterpiece structure"
+    }
+  },
+  "STNC": {
+    "name": "Stance",
+    "category": "Social & Interpersonal",
+    "temporal_marker": null,
+    "measures": "Social posture and conversational dominance",
+    "values": {
+      "0": "Incredibly submissive, tries to be invisible",
+      "1": "Very reserved, cautious, quiet delivery",
+      "2": "Highly cooperative, friendly, open tone",
+      "3": "Neutral style focused on information relay",
+      "4": "Highly assertive, confident, direct",
+      "5": "Heavy authoritative weight, commanding presence",
+      "6": "Completely dominates space, crushing dialogue"
+    }
+  },
+  "FOCS": {
+    "name": "Focus",
+    "category": "Social & Interpersonal",
+    "temporal_marker": null,
+    "measures": "Attentional clarity and concentration",
+    "values": {
+      "0": "Completely unfocused, wandering attention",
+      "1": "Highly scattered, difficulty concentrating",
+      "2": "Somewhat distracted but generally coherent",
+      "3": "Standard balanced attention to content",
+      "4": "Notably focused and engaged delivery",
+      "5": "Intensely concentrated on message",
+      "6": "Laser-focused absolute concentration"
+    }
+  },
+  "VULN": {
+    "name": "Vulnerability",
+    "category": "Social & Interpersonal",
+    "temporal_marker": null,
+    "measures": "Emotional openness and susceptibility",
+    "values": {
+      "0": "Completely armored, impenetrable wall",
+      "1": "Heavily guarded, minimal exposure",
+      "2": "Cautiously open, selective vulnerability",
+      "3": "Neutral emotional positioning",
+      "4": "Noticeably open emotional sharing",
+      "5": "Deeply vulnerable, emotional exposure",
+      "6": "Completely defenseless, raw emotional nakedness"
+    }
+  },
+  "GEND": {
+    "name": "Perceived Gender",
+    "category": "Speaker Identity",
+    "temporal_marker": null,
+    "measures": "Traditional gender markers (pitch + resonance)",
+    "values": {
+      "0": "Hyper-feminized, extremely high pitch, small-cavity resonance",
+      "1": "Clearly feminine vocal signature",
+      "2": "Predominantly feminine with subtle darkened qualities",
+      "3": "Androgynous, perfectly centered, ambiguous",
+      "4": "Predominantly masculine, slightly elevated pitch",
+      "5": "Standard masculine vocal signature",
+      "6": "Hyper-masculinized, massive chest resonance"
+    }
+  },
+  "AGEV": {
+    "name": "Voice Age",
+    "category": "Speaker Identity",
+    "temporal_marker": null,
+    "measures": "Perceived biological age (elasticity, wear)",
+    "values": {
+      "0": "Infant/toddler, small vocal tract, unstable pitch",
+      "1": "Pre-pubescent child, bright energetic signature",
+      "2": "Adolescent transition, developing depth",
+      "3": "Peak biological vigor, perfectly elastic",
+      "4": "Fully developed mature adult",
+      "5": "Middle-to-late aging, slight respiratory loss",
+      "6": "Extreme senescence, physiological tremor"
+    }
+  },
+  "REGS": {
+    "name": "Register",
+    "category": "Speaker Identity",
+    "temporal_marker": null,
+    "measures": "Dominant musical tessitura (pitch-class range)",
+    "values": {
+      "0": "Basso Profundo, extreme low end, cavernous",
+      "1": "Baritone, rich grounded low-end",
+      "2": "Tenor, light agile bright signature",
+      "3": "Bridge register (Contralto/Countertenor), transitional",
+      "4": "Mezzo-Soprano, balanced mid-frequency",
+      "5": "Soprano, brightly elevated upper-head resonance",
+      "6": "Coloratura/whistle register, impossibly thin"
+    }
+  },
+  "VALN": {
+    "name": "Valence",
+    "category": "Emotion & Affect",
+    "temporal_marker": null,
+    "measures": "Global emotional polarity (pleasure vs. pain)",
+    "values": {
+      "0": "Pure suffering, extreme hostility, deep agony",
+      "1": "Clearly anchored in unhappy, frustrated state",
+      "2": "Subtle negative bias, boredom, mild disappointment",
+      "3": "Perfectly balanced emotional neutrality",
+      "4": "Positive-leaning, polite, mildly interested",
+      "5": "Clear smile, cheerful, happy, warm state",
+      "6": "Euphoric, ecstatic, manic pleasure"
+    }
+  },
+  "AROU": {
+    "name": "Arousal",
+    "category": "Emotion & Affect",
+    "temporal_marker": null,
+    "measures": "Physiological activation (sleep to fight-or-flight)",
+    "values": {
+      "0": "Absolute minimum, comatose lethargic signal",
+      "1": "Extremely low, deeply sedated, muted",
+      "2": "Awake but consciously holding back energy",
+      "3": "Standard baseline, fully alert conversation",
+      "4": "Clearly elevated, energized, slightly urgent",
+      "5": "High activation, intense physical pressure",
+      "6": "Maximum mobilization, hysterical, panic"
+    }
+  },
+  "VOLT": {
+    "name": "Volatility",
+    "category": "Emotion & Affect",
+    "temporal_marker": "TEMPORAL PATTERN",
+    "measures": "Degree of emotional state shifting within clip",
+    "values": {
+      "0": "Completely static emotional state",
+      "1": "Extremely subtle shifts barely detectable",
+      "2": "Slight emotional variation, generally stable",
+      "3": "Standard moderate fluctuation in affect",
+      "4": "Noticeable shifts in emotional expression",
+      "5": "Significant volatility in emotional trajectory",
+      "6": "Extreme rapid swings, violent mood shifts"
+    }
+  },
+  "RESP": {
+    "name": "Respiration",
+    "category": "Physical Production",
+    "temporal_marker": "TEMPORAL PATTERN",
+    "measures": "Audibility and laboriousness of breathing",
+    "values": {
+      "0": "Completely invisible, infinite breath control",
+      "1": "Strictly controlled, barely perceptible inhalations",
+      "2": "Standard natural conversational breathing",
+      "3": "Noticeably elevated, more frequent audible breathing",
+      "4": "Highly labored, deep gasps, running out of air",
+      "5": "Rapid shallow gasping, heavily winded",
+      "6": "Agonal catastrophic respiratory failure"
+    }
+  },
+  "TENS": {
+    "name": "Tension",
+    "category": "Physical Production",
+    "temporal_marker": null,
+    "measures": "Muscular tightness in throat/jaw/neck",
+    "values": {
+      "0": "Absolutely zero resistance, impossibly floppy",
+      "1": "Highly loose, comfortable, tension-free",
+      "2": "Standard neutral conversational muscle tone",
+      "3": "Faint edge, mild squeeze indicating stress",
+      "4": "Noticeably pressed, constricted voice",
+      "5": "Heavily tense, strangled acoustic quality",
+      "6": "Rigidly locked, severely choked delivery"
+    }
+  },
+  "COGL": {
+    "name": "Cognitive Load",
+    "category": "Physical Production",
+    "temporal_marker": "TEMPORAL PATTERN",
+    "measures": "Real-time cognitive processing friction",
+    "values": {
+      "0": "Zero cognitive friction, fluent articulation",
+      "1": "Minimal processing effort evident",
+      "2": "Light cognitive engagement",
+      "3": "Standard balanced cognitive engagement",
+      "4": "Noticeable processing effort evident",
+      "5": "Heavy cognitive strain, difficult processing",
+      "6": "Extreme cognitive overload, struggling severely"
+    }
+  },
+  "ATCK": {
+    "name": "Attack",
+    "category": "Physical Production",
+    "temporal_marker": "TEMPORAL PATTERN",
+    "measures": "Onset characteristics as sound initiates from silence",
+    "values": {
+      "0": "Impossibly gradual fade-in, zero onset transient",
+      "1": "Extremely soft, pillow-like gentle attack",
+      "2": "Soft, rounded attack with gentle onset",
+      "3": "Standard neutral acoustic attack",
+      "4": "Crisp, well-defined attack onset",
+      "5": "Sharp, punchy acoustic attack",
+      "6": "Explosive violent attack, jarring onset"
+    }
+  },
+  "BRGT": {
+    "name": "Brightness",
+    "category": "Spectral & Timbral",
+    "temporal_marker": null,
+    "measures": "High-frequency spectral energy",
+    "values": {
+      "0": "Completely dull, dark, muted upper frequencies",
+      "1": "Very dark, heavily dampened brightness",
+      "2": "Somewhat dark, subdued high-frequency content",
+      "3": "Neutral balanced spectral brightness",
+      "4": "Noticeably bright, elevated upper frequencies",
+      "5": "Very bright, shimmering high-frequency presence",
+      "6": "Hyperbolically brilliant, piercing brightness"
+    }
+  },
+  "ROUG": {
+    "name": "Roughness",
+    "category": "Spectral & Timbral",
+    "temporal_marker": null,
+    "measures": "Turbulent, grainy, or aperiodic acoustic texture",
+    "values": {
+      "0": "Perfectly smooth crystalline tone",
+      "1": "Extremely smooth, highly polished texture",
+      "2": "Smooth with very subtle graininess",
+      "3": "Neutral standard acoustic texture",
+      "4": "Noticeably grainy or rough texture",
+      "5": "Very rough, heavily turbulent tone",
+      "6": "Extremely rough, raspy, heavily aperiodic"
+    }
+  },
+  "HARM": {
+    "name": "Harmonicity",
+    "category": "Spectral & Timbral",
+    "temporal_marker": null,
+    "measures": "Presence of regular harmonic structure",
+    "values": {
+      "0": "Pure noise, completely inharmonic",
+      "1": "Highly noisy inharmonic structure",
+      "2": "Predominantly noisy with some harmonicity",
+      "3": "Balanced harmonic/noisy mix",
+      "4": "Noticeably harmonic with minor noise",
+      "5": "Very harmonic, clean pitched tones",
+      "6": "Perfectly harmonic, crystalline structure"
+    }
+  },
+  "FULL": {
+    "name": "Fullness",
+    "category": "Spectral & Timbral",
+    "temporal_marker": null,
+    "measures": "Presence of mid-to-low frequency body/presence",
+    "values": {
+      "0": "Extremely thin, hollow, bodiless tone",
+      "1": "Very thin, lacking physical presence",
+      "2": "Somewhat thin, limited low-frequency support",
+      "3": "Neutral balanced fullness",
+      "4": "Noticeably full, present acoustic body",
+      "5": "Very full, rich, substantial presence",
+      "6": "Impossibly full, bloated, overly resonant"
+    }
+  },
+  "WARM": {
+    "name": "Warmth",
+    "category": "Spectral & Timbral",
+    "temporal_marker": null,
+    "measures": "Pleasing low-to-mid frequency balance",
+    "values": {
+      "0": "Extremely cold, clinical, sterile tone",
+      "1": "Very cold, lacking warmth",
+      "2": "Somewhat cool, mildly cold tone",
+      "3": "Neutral balanced warmth",
+      "4": "Noticeably warm, inviting tone",
+      "5": "Very warm, deeply pleasing acoustic quality",
+      "6": "Impossibly warm, overly soft cushioned tone"
+    }
+  },
+  "METL": {
+    "name": "Metallic Character",
+    "category": "Spectral & Timbral",
+    "temporal_marker": null,
+    "measures": "Harsh, brittle, metal-like spectral quality",
+    "values": {
+      "0": "Completely organic, zero metallic quality",
+      "1": "Extremely smooth, no metallic edge",
+      "2": "Smooth with minimal metallic coloration",
+      "3": "Neutral balanced metallic quality",
+      "4": "Noticeably metallic, some brittle quality",
+      "5": "Very metallic, harsh brittle tone",
+      "6": "Extremely metallic, aggressively harsh"
+    }
+  },
+  "ESTH": {
+    "name": "Esthetics",
+    "category": "Spectral & Timbral",
+    "temporal_marker": null,
+    "measures": "Overall acoustic pleasantness/beauty",
+    "values": {
+      "0": "Extremely unpleasant, harsh, grating",
+      "1": "Very unpleasant, highly unappealing",
+      "2": "Somewhat unpleasant, mildly grating",
+      "3": "Neutral balanced esthetics",
+      "4": "Noticeably pleasant, appealing tone",
+      "5": "Very pleasant, beautiful acoustic quality",
+      "6": "Exceptionally beautiful, exquisite tone"
+    }
+  },
+  "VFLX": {
+    "name": "Velocity Flux",
+    "category": "Temporal Dynamics",
+    "temporal_marker": "TEMPORAL TRAJECTORY",
+    "measures": "Acceleration/deceleration trend across clip",
+    "values": {
+      "0": "Continuously decelerating, grinding to halt",
+      "1": "Strongly decelerating, slowing down",
+      "2": "Mildly decelerating trend",
+      "3": "Neutral, no directional velocity change",
+      "4": "Mildly accelerating trend",
+      "5": "Strongly accelerating, picking up speed",
+      "6": "Continuously accelerating, running away"
+    }
+  },
+  "DARC": {
+    "name": "Dynamic Arc",
+    "category": "Temporal Dynamics",
+    "temporal_marker": "TEMPORAL TRAJECTORY",
+    "measures": "Loudness trajectory from start to finish",
+    "values": {
+      "0": "Continuously getting quieter, fading out",
+      "1": "Strongly fading, significant decrease",
+      "2": "Mildly fading trajectory",
+      "3": "Neutral, no loudness arc change",
+      "4": "Mildly rising trajectory",
+      "5": "Strongly rising, significantly increasing",
+      "6": "Continuously crescendoing, explosive ending"
+    }
+  },
+  "ARSH": {
+    "name": "Arousal Shift",
+    "category": "Temporal Dynamics",
+    "temporal_marker": "TEMPORAL TRAJECTORY",
+    "measures": "Change in physiological activation over time",
+    "values": {
+      "0": "Continuously decreasing arousal, burnout",
+      "1": "Strongly decreasing, losing energy",
+      "2": "Mildly decreasing arousal trend",
+      "3": "Neutral, no arousal shift",
+      "4": "Mildly increasing arousal trend",
+      "5": "Strongly increasing, building energy",
+      "6": "Continuously escalating, hysterical peak"
+    }
+  },
+  "VALS": {
+    "name": "Valence Shift",
+    "category": "Temporal Dynamics",
+    "temporal_marker": "TEMPORAL TRAJECTORY",
+    "measures": "Change in emotional polarity over time",
+    "values": {
+      "0": "Continuously becoming sadder, breakdown arc",
+      "1": "Strongly declining, mood worsening",
+      "2": "Mildly declining valence trend",
+      "3": "Neutral, no emotional shift",
+      "4": "Mildly improving emotional tone",
+      "5": "Strongly improving, brightening trajectory",
+      "6": "Continuously brightening, euphoric arc"
+    }
+  },
+  "LANG": {
+    "name": "Language",
+    "category": "Language & Recording",
+    "temporal_marker": null,
+    "measures": "Language of spoken content",
+    "values": {
+      "0": "English",
+      "1": "German",
+      "2": "French",
+      "3": "Spanish",
+      "4": "Chinese (Mandarin)",
+      "5": "Japanese",
+      "6": "Arabic",
+      "7": "Hindi",
+      "8": "Portuguese",
+      "9": "Russian",
+      "10": "Korean",
+      "11": "Other"
+    }
+  },
+  "ACNT": {
+    "name": "Accent",
+    "category": "Language & Recording",
+    "temporal_marker": null,
+    "measures": "Regional or non-native phonological patterns",
+    "values": {
+      "0": "No discernible accent, standard neutral pronunciation",
+      "1": "Very slight accent, barely perceptible",
+      "2": "Mild accent, noticeable but easily understood",
+      "3": "Moderate accent, clearly non-native or regional",
+      "4": "Strong accent, requires careful listening",
+      "5": "Very strong accent, significant impact on intelligibility",
+      "6": "Extremely heavy accent, nearly unintelligible"
+    }
+  },
+  "RCQL": {
+    "name": "Recording Quality",
+    "category": "Language & Recording",
+    "temporal_marker": null,
+    "measures": "Technical fidelity of the audio recording",
+    "values": {
+      "0": "Severely degraded, heavily compressed/distorted",
+      "1": "Very poor quality, significant artifacts",
+      "2": "Poor quality, noticeable degradation",
+      "3": "Standard acceptable quality",
+      "4": "Good quality, clear recording",
+      "5": "Very high quality, pristine recording",
+      "6": "Exceptional studio quality, perfect clarity"
+    }
+  },
+  "BKGN": {
+    "name": "Background Noise",
+    "category": "Language & Recording",
+    "temporal_marker": null,
+    "measures": "Presence of environmental noise",
+    "values": {
+      "0": "Heavily obscured by loud background noise",
+      "1": "Significant background noise interference",
+      "2": "Noticeable background noise present",
+      "3": "Standard minimal background noise",
+      "4": "Quiet background, minimal interference",
+      "5": "Very quiet background, isolated recording",
+      "6": "Dead silence, anechoic chamber quality"
+    }
+  },
+  "EXPL": {
+    "name": "Content Appropriateness",
+    "category": "Language & Recording",
+    "temporal_marker": null,
+    "measures": "Suitability for different contexts",
+    "values": {
+      "0": "Safe for School (SFS): Completely harmless, suitable for K-12 classroom",
+      "1": "Safe for Work (SFW): Acceptable for adults in professional settings",
+      "2": "Not Safe for Work (NSFW): Extreme gore, pornographic material, or offensive content"
+    }
+  },
+  "R_CHST": {
+    "name": "Chest Resonance",
+    "category": "Resonance Placement",
+    "temporal_marker": null,
+    "measures": "Low-frequency resonance located in chest cavity",
+    "values": {
+      "0": "No chest resonance present",
+      "1": "Minimal chest resonance",
+      "2": "Subtle chest resonance",
+      "3": "Moderate balanced chest resonance",
+      "4": "Noticeable chest resonance",
+      "5": "Strong chest resonance",
+      "6": "Dominant chest resonance"
+    }
+  },
+  "R_THRT": {
+    "name": "Throat Resonance",
+    "category": "Resonance Placement",
+    "temporal_marker": null,
+    "measures": "Mid-frequency resonance in throat region",
+    "values": {
+      "0": "No throat resonance",
+      "1": "Minimal throat resonance",
+      "2": "Subtle throat resonance",
+      "3": "Moderate balanced throat resonance",
+      "4": "Noticeable throat resonance",
+      "5": "Strong throat resonance",
+      "6": "Dominant throat resonance"
+    }
+  },
+  "R_ORAL": {
+    "name": "Oral Resonance",
+    "category": "Resonance Placement",
+    "temporal_marker": null,
+    "measures": "Resonance in oral cavity (mouth/lips)",
+    "values": {
+      "0": "No oral resonance",
+      "1": "Minimal oral resonance",
+      "2": "Subtle oral resonance",
+      "3": "Moderate balanced oral resonance",
+      "4": "Noticeable oral resonance",
+      "5": "Strong oral resonance",
+      "6": "Dominant oral resonance"
+    }
+  },
+  "R_MASK": {
+    "name": "Mask Resonance",
+    "category": "Resonance Placement",
+    "temporal_marker": null,
+    "measures": "Resonance in facial mask (nose/cheeks/sinuses)",
+    "values": {
+      "0": "No mask resonance",
+      "1": "Minimal mask resonance",
+      "2": "Subtle mask resonance",
+      "3": "Moderate balanced mask resonance",
+      "4": "Noticeable mask resonance",
+      "5": "Strong mask resonance",
+      "6": "Dominant mask resonance"
+    }
+  },
+  "R_NASL": {
+    "name": "Nasal Resonance",
+    "category": "Resonance Placement",
+    "temporal_marker": null,
+    "measures": "Nasal cavity resonance presence",
+    "values": {
+      "0": "No nasal resonance",
+      "1": "Minimal nasal resonance",
+      "2": "Subtle nasal resonance",
+      "3": "Moderate balanced nasal resonance",
+      "4": "Noticeable nasal resonance",
+      "5": "Strong nasal resonance",
+      "6": "Dominant nasal resonance"
+    }
+  },
+  "R_HEAD": {
+    "name": "Head Resonance",
+    "category": "Resonance Placement",
+    "temporal_marker": null,
+    "measures": "High-frequency resonance in head cavities",
+    "values": {
+      "0": "No head resonance",
+      "1": "Minimal head resonance",
+      "2": "Subtle head resonance",
+      "3": "Moderate balanced head resonance",
+      "4": "Noticeable head resonance",
+      "5": "Strong head resonance",
+      "6": "Dominant head resonance"
+    }
+  },
+  "R_MIXD": {
+    "name": "Mixed Resonance",
+    "category": "Resonance Placement",
+    "temporal_marker": null,
+    "measures": "Balanced combination of multiple resonance locations",
+    "values": {
+      "0": "No mixed resonance, single location only",
+      "1": "Minimal mixing of resonances",
+      "2": "Subtle resonance blending",
+      "3": "Moderate balanced mixed resonance",
+      "4": "Noticeable mixed resonance",
+      "5": "Strong mixed resonance",
+      "6": "Perfect balanced mixed resonance"
+    }
+  },
+  "S_CASU": {
+    "name": "Casual Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Relaxed, informal conversational manner",
+    "values": {
+      "0": "Not casual at all, formal/stiff",
+      "1": "Very formal, no casual markers",
+      "2": "Somewhat formal, minimal casual elements",
+      "3": "Neutral balanced formality",
+      "4": "Noticeably casual, informal tone",
+      "5": "Very casual, relaxed delivery",
+      "6": "Extremely casual, maximum informality"
+    }
+  },
+  "S_CONV": {
+    "name": "Conversational Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Natural back-and-forth dialogue manner",
+    "values": {
+      "0": "Not conversational, monologue/lecture",
+      "1": "Highly scripted, non-conversational",
+      "2": "Somewhat scripted, limited dialogue sense",
+      "3": "Neutral balanced conversationality",
+      "4": "Noticeably conversational, dialogue-like",
+      "5": "Very conversational, natural exchange feel",
+      "6": "Extremely conversational, intimate chat"
+    }
+  },
+  "S_FORM": {
+    "name": "Formal Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Professional, elevated, ceremonial manner",
+    "values": {
+      "0": "Not formal, entirely casual",
+      "1": "Very informal, no formal markers",
+      "2": "Somewhat informal, minimal formality",
+      "3": "Neutral balanced formality",
+      "4": "Noticeably formal, professional tone",
+      "5": "Very formal, elevated delivery",
+      "6": "Extremely formal, ceremonial manner"
+    }
+  },
+  "S_DRAM": {
+    "name": "Dramatic Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Theatrical, expressive, emotionally heightened manner",
+    "values": {
+      "0": "Not dramatic, completely flat delivery",
+      "1": "Very undramatic, minimal expression",
+      "2": "Somewhat undramatic, limited drama",
+      "3": "Neutral balanced dramaticness",
+      "4": "Noticeably dramatic, expressive delivery",
+      "5": "Very dramatic, theatrical manner",
+      "6": "Extremely dramatic, over-the-top"
+    }
+  },
+  "S_NARR": {
+    "name": "Narrator Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Storytelling, descriptive, illustrative manner",
+    "values": {
+      "0": "Not narrative, non-descriptive",
+      "1": "Very un-narrative, minimal storytelling",
+      "2": "Somewhat un-narrative, limited narrative",
+      "3": "Neutral balanced narrativeness",
+      "4": "Noticeably narrative, story-focused",
+      "5": "Very narrative, strong storytelling feel",
+      "6": "Extremely narrative, immersive storytelling"
+    }
+  },
+  "S_NEWS": {
+    "name": "Newsreader Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Broadcast journalism, reported facts manner",
+    "values": {
+      "0": "Not newsreader-like, very casual",
+      "1": "Very un-newsreader, minimal journalism feel",
+      "2": "Somewhat un-newsreader, limited news tone",
+      "3": "Neutral balanced newsreader quality",
+      "4": "Noticeably newsreader-like, journalistic tone",
+      "5": "Very newsreader-like, broadcast manner",
+      "6": "Extremely newsreader-like, professional broadcast"
+    }
+  },
+  "S_TECH": {
+    "name": "Teacher/Didactic Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Instructional, educational, teaching manner",
+    "values": {
+      "0": "Not educational, non-teaching",
+      "1": "Very non-educational, minimal teaching",
+      "2": "Somewhat non-educational, limited instruction",
+      "3": "Neutral balanced teaching quality",
+      "4": "Noticeably educational, instructional tone",
+      "5": "Very educational, strong teaching manner",
+      "6": "Extremely educational, masterclass delivery"
+    }
+  },
+  "S_AUTH": {
+    "name": "Authoritative Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Expert, commanding, credible manner",
+    "values": {
+      "0": "Not authoritative, lacks credibility",
+      "1": "Very non-authoritative, minimal authority",
+      "2": "Somewhat non-authoritative, limited credibility",
+      "3": "Neutral balanced authority",
+      "4": "Noticeably authoritative, credible tone",
+      "5": "Very authoritative, commanding presence",
+      "6": "Extremely authoritative, unquestionable expert"
+    }
+  },
+  "S_PLAY": {
+    "name": "Playful Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Humorous, fun-loving, light-hearted manner",
+    "values": {
+      "0": "Not playful, serious tone",
+      "1": "Very serious, no playfulness",
+      "2": "Somewhat serious, minimal playfulness",
+      "3": "Neutral balanced playfulness",
+      "4": "Noticeably playful, light tone",
+      "5": "Very playful, fun-loving manner",
+      "6": "Extremely playful, comedic delivery"
+    }
+  },
+  "S_CART": {
+    "name": "Cartoonish Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Exaggerated, caricatured, animated manner",
+    "values": {
+      "0": "Not cartoonish, grounded delivery",
+      "1": "Very grounded, no cartoonish quality",
+      "2": "Somewhat grounded, minimal exaggeration",
+      "3": "Neutral balanced cartoonishness",
+      "4": "Noticeably cartoonish, exaggerated tone",
+      "5": "Very cartoonish, animated manner",
+      "6": "Extremely cartoonish, extreme exaggeration"
+    }
+  },
+  "S_ASMR": {
+    "name": "ASMR Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Whispery, relaxing, intimate sensation manner",
+    "values": {
+      "0": "Not ASMR, loud/harsh tone",
+      "1": "Very non-ASMR, no whisper quality",
+      "2": "Somewhat non-ASMR, minimal whisper",
+      "3": "Neutral balanced ASMR quality",
+      "4": "Noticeably ASMR, whispery elements",
+      "5": "Very ASMR, strong whisper/intimate quality",
+      "6": "Extremely ASMR, maximum relaxation effect"
+    }
+  },
+  "S_WHIS": {
+    "name": "Whisper-Talk Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Quiet, soft-spoken, confidential manner",
+    "values": {
+      "0": "Not whispered, very loud",
+      "1": "Very loud, no whisper quality",
+      "2": "Somewhat loud, minimal whisper",
+      "3": "Neutral balanced whisper quality",
+      "4": "Noticeably whispered, soft spoken",
+      "5": "Very whispered, quiet intimate manner",
+      "6": "Extremely whispered, barely audible"
+    }
+  },
+  "S_RANT": {
+    "name": "Ranting/Angry Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Angry, aggressive, passionate manner",
+    "values": {
+      "0": "Not angry, calm collected tone",
+      "1": "Very calm, no angry elements",
+      "2": "Somewhat calm, minimal anger",
+      "3": "Neutral balanced anger/calmness",
+      "4": "Noticeably angry, frustrated tone",
+      "5": "Very angry, aggressive passionate manner",
+      "6": "Extremely angry, furious rant delivery"
+    }
+  },
+  "S_STRY": {
+    "name": "Storytelling Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Personal narrative, anecdotal, intimate manner",
+    "values": {
+      "0": "Not storytelling, abstract/impersonal",
+      "1": "Very impersonal, no story quality",
+      "2": "Somewhat impersonal, minimal narrative",
+      "3": "Neutral balanced storytelling",
+      "4": "Noticeably storytelling, personal narrative",
+      "5": "Very storytelling, intimate anecdotal manner",
+      "6": "Extremely storytelling, deep personal narrative"
+    }
+  },
+  "S_MONO": {
+    "name": "Monologue Style",
+    "category": "Speaking Style",
+    "temporal_marker": null,
+    "measures": "Solo delivery, extended uninterrupted speech",
+    "values": {
+      "0": "Not monologue, conversational dialogue",
+      "1": "Very conversational, minimal monologue",
+      "2": "Somewhat conversational, limited solo",
+      "3": "Neutral balanced monologue quality",
+      "4": "Noticeably monologue-like, extended solo",
+      "5": "Very monologue-like, strong solo delivery",
+      "6": "Extremely monologue-like, pure solo speech"
+    }
+  }
+}
